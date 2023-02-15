@@ -487,3 +487,42 @@ footer p{
 	}
 }
 
+@media screen and (max-width: 300px){
+	header{
+		margin-left: -30px;
+	}
+
+	section#doces .flex{
+		width: 100%;
+	}
+
+	section#doces .imagem, section#salgados .imagem-salg, section#festa .imagem-festa{
+		width: 95%;
+	}
+
+	section#doces .textodoces, section#salgados .textosalgados, section#festa .textofesta{
+		width: 95%;
+	}
+
+	section#salgados{
+		margin-top: 450px;
+	}
+
+	section#festa{
+		margin-top: 450px;
+	}
+
+	section#local {
+		margin-top: 450px;
+	}
+
+	section#local div {
+		width: 99%;
+		height: 100px;
+	}
+
+	footer{
+		width: 115%;
+		margin: 0;
+	}
+} 
